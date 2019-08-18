@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.profilePage {
+  padding: 40px 80px;
+}
+
+.profilePageContainer {
+  max-width: 1100px;
+}
