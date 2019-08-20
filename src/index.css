@@ -18,4 +18,93 @@ code {
 
 .profilePageContainer {
   max-width: 1100px;
+  margin: auto;
 }
+
+.profileImageContainer {
+  height: 300px;
+  width: 300px;
+  padding: 12px;
+  display: block;
+  flex: 1;
+}
+
+.profileImage {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-image: url(assets/mandisa.jpg);
+  background-size: cover;
+}
+
+.postItemContainer {
+  flex: 1;
+  padding: 24px;
+  display: inline-block;
+}
+
+.postItem {
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+}
+
+.postGrid {
+  display: block;
+}
+
+.profilePageHeadContainer {
+  display: flex;
+}
+
+.profileBioContainer {
+  flex: 3;
+  padding: 40px 24px 0 48px; /* top, right, bottom, left */
+}
+
+.profileBioPerson {
+  display: flex;
+}
+
+.profileBioName {
+  font-weight: bold;
+  font-size: 32px;
+  margin-right: 24px;
+}
+
+.profileBioPerson button {
+  background-color: cornflowerblue;
+  color: white;
+  font-size: 18px;
+  padding: 8px 24px;
+  border-radius: 4px;
+  border: none;
+}
+
+button.postButton {
+  background-color: coral;
+  color: white;
+  margin-left: 24px;
+}
+
+.profileBioStatus {
+  padding: 36px 0;
+  font-size: 24px;
+  font-weight: bolder;
+  display: flex;
+}
+
+.profileBioStatusItem {
+  margin-right: 24px;
+}
+
+.profileBioDescriptionName {
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.profileBioDescriptionLink {
+  color: cornflowerblue;
+  font-weight: bolder;
+}
+
