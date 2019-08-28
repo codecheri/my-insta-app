@@ -87,6 +87,27 @@ button.postButton {
   margin-left: 24px;
 }
 
+button.updateButton {
+  background-color: mediumslateblue;
+  color: white;
+  margin-left: 24px;
+}
+
+.profileUpdateBioSection {
+  display: flex;
+}
+
+input {
+  font-size: 14px;
+}
+
+button.submitButton {
+  padding: 8px 24px;
+  background-color: mediumslateblue;
+  color: white;
+  margin-left: 24px;
+}
+
 .profileBioStatus {
   padding: 36px 0;
   font-size: 24px;
